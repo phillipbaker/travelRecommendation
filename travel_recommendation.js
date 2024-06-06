@@ -58,7 +58,7 @@ function thankyou() {
     alert('Thank you for contacting us!');
 }
 
-contactBtn.addEventListener('submit', thankyou);
+contactBtn.addEventListener('click', thankyou);
 
 function clear() {
     console.log('Clear button tapped.')
