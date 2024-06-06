@@ -8,6 +8,7 @@ html, body {
 }
 
 body {
+    color: white;
     font-family: sans-serif;
     font-size: 17px;
 }
@@ -15,7 +16,7 @@ body {
 nav {
     align-items: center;
     background-color: rgb(58, 58, 134);
-    color: white;
+    /* color: white; */
     display: flex;
     justify-content: space-between;
     padding: 2% 5%;
