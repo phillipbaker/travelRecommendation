@@ -4,6 +4,7 @@
 }
 
 html, body {
+    background-color: rgb(58, 58, 134);
     height: 100%;
 }
 
@@ -51,6 +52,7 @@ h1 {
 
 h2 {
     font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -62,9 +64,61 @@ h3 {
 }
 
 .bg {
+    background-attachment: fixed;
     background-image: url("background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    transform: scale(1.0);
+}
+
+.page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.page-title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    display: flex;
+    align-items: start;
+    margin-top: 4rem;
+}
+
+.social li {
+    padding-right: 1rem;
+}
+
+.team {
+    margin-top: 1.5rem;
+}
+
+.person-card {
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.job-title {
+    color: gray;
+    font-size: 0.9rem;
+    margin: 0.25rem 0 0.5rem 0;
+}
+
+#contact-form .input {
+    width: 100%;
 }

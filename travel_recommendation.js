@@ -1,10 +1,11 @@
 const searchBtn = document.getElementById('search-btn');
 const contactBtn = document.getElementById('contact-btn');
-const resetBtn = document.getElementById('reset-btn');
+const clearBtn = document.getElementById('clear-btn');
 
 function searchDestination() {
     const input = document.getElementById('destination-input').value.toLowerCase();
     const resultDiv = document.getElementById('result');
+
     resultDiv.innerHTML = '';
 
     fetch('travel_recommendation_api.json')
@@ -49,3 +50,14 @@ searchBtn.addEventListener('click', searchDestination);
 function thankyou() {
     alert('Thank you for contacting us!');
 }
+
+contactBtn.addEventListener('click', thankyou);
+
+function clear() {
+    const input = document.getElementById('destination-input').value.toLowerCase();
+    const resultDiv = document.getElementById('result');
+    input = "";
+    resultDiv.innerHTML = "";
+}
+
+clearBtn.addEventListener('click', clear);
