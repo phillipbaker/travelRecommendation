@@ -109,7 +109,7 @@ ul {
 
 .person-card {
     background: rgba(0, 0, 0, 0.5);
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
     padding: 1rem;
 }
 
@@ -119,6 +119,51 @@ ul {
     margin: 0.25rem 0 0.5rem 0;
 }
 
-#contact-form .input {
+#contact-form  {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1rem 0;
+    padding: 2rem;
+}
+
+#contact-form input, textarea {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 4px 0;
     width: 100%;
+}
+
+#name, #email {
+    margin-bottom: 1rem;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.75);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav button {
+    background-color: rgb(37, 37, 87);
+}
+
+#destination-input {
+    font-size: 1rem;
+    padding: 0.35rem 0.5rem;
+}
+
+.destination-card {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+img {
+    margin-bottom: 1rem;
+    max-width: 100%;
+    object-fit: contain;
 }
